@@ -5,7 +5,7 @@ class Main {
    //Finding the volume
     double volume;
     Scanner scanner = new Scanner (System.in);
-    /*System.out.println("Please enter the length of your box");
+    System.out.println("Please enter the length of your box");
     double length = (double)scanner.nextDouble();
     System.out.println("\nThe length of your box is " + length);
 
@@ -18,7 +18,7 @@ class Main {
     System.out.println("The height of your box is " + height);
 
     volume = length * width * height;
-    System.out.println(" The volume of your box is " + volume + "!");
+    System.out.println(" The volume of your box is " + volume + "㎤");
 
 
     //What year the user will be by the end of 2022
@@ -45,7 +45,7 @@ int newAge;
 
     average = (firstMark + secondMark + thirdMark + fourthMark) / 4;
     
-    System.out.println("Therefore, your average is");
+    System.out.println(name + ", your average is");
      DecimalFormat f = new DecimalFormat("0.00");
      System.out.print(f.format(average));
     
